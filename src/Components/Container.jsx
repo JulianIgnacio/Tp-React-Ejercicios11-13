@@ -4,11 +4,12 @@ import Form from 'react-bootstrap/Form';
 import './Container.css'
 const Container = () => {
 
+    
     return(
         <section className="container h-75" id='Contenedor-grande'>
             <article className='d-flex justify-content-between py-3' id='Articulo'>
             <aside className="container w-50">
-            <h2>Buscar por Categoria</h2>
+            <h2>Buscar por Categoria:</h2>
             </aside>
             <aside className="container w-50">
             <Form.Select aria-label="Default select example">
